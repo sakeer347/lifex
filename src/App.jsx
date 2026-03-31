@@ -967,7 +967,7 @@ Be direct, specific, and authoritative. Reference actual numbers throughout. Thi
               <div style={{fontSize:17,fontWeight:800,color:c.pri,fontFamily:"'Space Grotesk',sans-serif"}}>LifeX · Financial Advisory Report</div>
               <div style={{fontSize:11,color:c.txtS}}>{monthName} · Generated {new Date(report.generatedAt).toLocaleString()}</div>
             </div>
-            <div style={{display:"flex",gap:6",flexWrap:"wrap"}}>
+            <div style={{display:"flex",gap:6,flexWrap:"wrap"}}>
               <Badge c={c} col="pri">AI GENERATED</Badge>
               <Badge c={c} col="sec">{cur}</Badge>
             </div>
